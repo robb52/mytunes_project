@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+nav {
+    list-style: none;
+    background: #323232;
+    margin-top: -20px;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
