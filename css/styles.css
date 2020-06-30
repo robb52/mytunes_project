@@ -5,6 +5,7 @@
 }
 
 body {
+    height: 100%;
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -269,5 +270,60 @@ img {
 @media (min-width: 600px) {
     .video-body {
         margin: 0 10%;
+    }
+}
+
+.entertain-main {
+    background-image: url(../images/entertain-3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.entertain-body {
+    text-align: center;
+    color: #fff;
+    padding: 5em 2em;   
+}
+
+.entertain-body h3 {
+    font-size: 2rem;
+    font-weight: 200;
+    padding-bottom: 1em;
+}
+
+.entertain-content {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 600px) {
+    .entertain-main {
+        
+        padding: 0 10%;
+    }
+
+    .entertain-body h3 {
+        margin: 0 2em;
+    }
+}
+
+@media (min-width: 840px) {
+    .entertain-main {
+        height: 500px;
+        background-position: bottom;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    .entertain-main {
+        height: 500px;
+        background-position: bottom;
+    }
+
+    .entertain-body h3 {
+        margin-top: 1em;
     }
 }
