@@ -218,6 +218,11 @@ label #sign-two {
     padding: 1.125em
 }
 
+.btn.btn-main.mb:hover,
+.btn.btn-main.mb:focus {
+    filter: brightness(110%);
+}
+
 img {
     width: 100%;
     margin: 0;
@@ -260,6 +265,11 @@ img {
     color: #fff;
     background: #103063;
     padding: 1em;
+}
+
+.btn.btn-video:hover,
+.btn.btn-video:focus {
+    filter: brightness(130%);
 }
 
 .video-img {
@@ -351,7 +361,7 @@ img {
 
 .gift-sub-content {
     padding-bottom: 1em;
-    border-bottom: 1px solid #103063;
+    border-bottom: 1px solid #9a9b9c;
 }
 
 .redeem {
@@ -372,5 +382,60 @@ img {
         text-align: left;
         margin-top: 3em;
        
+    }
+}
+
+.footer-body {
+    display: none;
+}
+
+.footer-bottom {
+    color: #fff;
+    background: #333;
+    padding: 1em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+@media (min-width: 550px) {
+    footer{
+        background: #222;
+        padding: 0 3em;
+    }
+
+    .footer-body {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1em;
+        text-align: left;
+        color: #fff;
+        margin: 2em 2em -2em 2em;
+        padding: 2em 0;
+    }
+
+    .footer-body ul {
+        list-style: none;
+    }
+
+    .footer-body ul li:first-child {
+        font-size: 1.1rem;
+        border-bottom: 1px solid #444;
+        margin-bottom: 1em;
+        padding-bottom: .5em;
+    }
+
+    .footer-body li {
+        padding: 4px 0;
+    }
+
+    .footer-body a {
+        text-decoration: none;
+        color: #ccc;
+    }
+}
+
+@media (min-width: 1000px) {
+    .footer-body ul li:first-child {
+        width: 80%;
     }
 }
